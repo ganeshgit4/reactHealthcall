@@ -3,9 +3,9 @@ import { Component } from "react";
 class FooterComponent extends Component{
     render(){
         return(
-        <div className="container " style={{backgroundColor:"#E70A8B"}}>
+        <div className="container ">
          
-        <div className="row" style={{backgroundColor:"#e8e7e3",marginLeft:"5px",marginRight:'5px'}} >
+        <div className="row" style={{backgroundColor:"#4d7556", color:"white"}} >
             <div className="col-3">
                 <h2>Address</h2>
                 <p>Hyderabad</p>

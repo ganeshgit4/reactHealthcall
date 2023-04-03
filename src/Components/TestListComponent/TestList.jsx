@@ -24,7 +24,7 @@ class TestListComponent extends Component{
     render(){
 
         return(<div className="container fluid">
-            <button onClick={this.getPaymentList}>get payment</button>
+           
             <div style={{ display: 'flex' }} >
              
           
@@ -43,10 +43,12 @@ class TestListComponent extends Component{
                        <div className="col-6">
                        <p>Before Offer price<br/>Rs250.00</p>
                        </div>
-                       <div className="col-6">
+                    
                         <div className="card" style={{backgroundColor:"#E70A8B"}}>
+                            <a className="nav-link" href="/addtocart">
                             <h6>Add to cart</h6>
-                        </div>
+                            </a>
+                        
                        </div>
                     </div>
                     </div>
@@ -74,10 +76,12 @@ class TestListComponent extends Component{
                        <div className="col-6">
                        <p>Before Offer price<br/>Rs388.00</p>
                        </div>
-                       <div className="col-6">
+                       
                         <div className="card" style={{backgroundColor:"#E70A8B"}}>
+                        <a className="nav-link" href="/addtocart">
                             <h6>Add to cart</h6>
-                        </div>
+                            </a>
+                        
                        </div>
                     </div>
                     </div>

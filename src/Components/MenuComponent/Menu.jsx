@@ -4,7 +4,7 @@ class MenuComponents extends Component{
 
     render(){
         return(<div className="container">
-       <div class="container" style={{backgroundColor: "#E70A8B"}}>
+       <div class="container">
            <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <a className="navbar-brand" href="#">Healthcall</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@ class MenuComponents extends Component{
         <a className="nav-link" href="/profile">Profile</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link disabled" href="#">About</a>
+        <a className="nav-link" href="/forgot">About</a>
       </li>
       <li className="nav-item">
         <a className="nav-link disabled" href="#">Services</a>

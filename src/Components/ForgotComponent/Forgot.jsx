@@ -16,8 +16,8 @@ class Forgotcomponent extends Component{
         </div>
         <a href="#" class="btn w-100" style={{backgroundColor:"#E70A8B",color:"white"}}>Reset password</a>
         <div class="d-flex justify-content-between mt-4">
-            <a class="" href="#">Login</a>
-            <a class="" href="#">Register</a>
+            <a class="" href="/login">Login</a>
+            <a class="" href="/register">Register</a>
         </div>
     </div>
 </div>

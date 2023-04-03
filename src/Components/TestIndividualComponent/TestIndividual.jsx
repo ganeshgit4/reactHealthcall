@@ -3,13 +3,13 @@ import { Component } from "react";
 class TestIndividualComponent extends Component{
     render(){
         return(<div className="container">
-            <div className="card">
+            
                 <img src="https://media.istockphoto.com/id/1300036735/photo/blood-test-results-in-a-medical-lab.jpg?s=1024x1024&w=is&k=20&c=K1arBn1dSaDCtjKw6DkNYRcHIQyGDqL8HeQmazrljM8=" style={{width:'50%'}}/>
                 <h3>Blood Glucose,Fasting</h3>
                <div className="col-2">
               <p>Price:Rs200.00</p>
               <h5>Description:</h5>
-              </div>n 
+              </div>
 
               <div className="col-3">
               <h6>Evaluation of the Body Part(s):  Blood</h6>
@@ -22,8 +22,8 @@ class TestIndividualComponent extends Component{
                             <h4>Add to cart</h4>
                             </div>
                             </div>    
-            </div>
-            <div className="card">
+            
+           
                 <img src="https://www.or-technology.com/images/2022/06/20/amadeo-m-dr-mini-wireless-portable-x-ray-system.webp" style={{width:'50%'}}/>
             <h3>X Ray- Paranasal Sinuses</h3>
                <div className="col-2">
@@ -40,7 +40,7 @@ Contradictory to the Conventional Radiography (CR), Digital X-ray provides a low
                             </div>
                             </div>    
             </div>
-        </div>);
+        )
     }
 
 }
