@@ -1,0 +1,25 @@
+.carde{
+    border:5px green double;
+    width:400px;
+    text-align:center;
+    background-color:white;
+    border-radius:30px;
+    }
+    input{
+    width:90%;
+    margin:8px;
+    height:30px;
+    }
+    
+    .sub-btn{
+    background-color:green;
+    color:white;
+    border-radius:30px;
+    width:30%;
+    border:5px #a1e6aa solid;
+    }
+    label{
+    float:left;
+    font-size:20px;
+    margin-left:10px;
+    }
