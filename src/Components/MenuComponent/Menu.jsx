@@ -13,16 +13,16 @@ class MenuComponents extends Component{
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <a className="nav-link" href="/Doctor">Home</a>
+        <a className="nav-link" href="/home">Home</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="/testlist">Testlist</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/register">Profile</a>
+        <a className="nav-link" href="/login">Profile</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/forgot">About</a>
+        <a className="nav-link" href="#">About</a>
       </li>
       <li className="nav-item">
         <a className="nav-link disabled" href="#">Services</a>

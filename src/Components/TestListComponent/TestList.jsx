@@ -1,26 +1,8 @@
 import { Component } from "react";
-import axios from "axios";
+
 
 class TestListComponent extends Component{
-    constructor(props){
-        super(props);
-        this.state={
-            paymentList:[]
-        }
-    }
-    getPaymentList= ()=>{
-        console.log("invoking");
-        axios.get("http://localhost:8090/payment/get").then(
-            (result)=>{
-              console.log(result.data)
-                  
-                console.log(result.status)
-                
-
-            }
-        )
-    }
-
+   
     render(){
 
         return(<div className="container fluid">

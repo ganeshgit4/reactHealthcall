@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-export default class DoctorComponet extends Component{
+export default class DoctorComponent extends Component{
     render(){
 
         return(<div className="container">

@@ -22,6 +22,9 @@ export default class Login extends Component{
   </div>
   
   <button type="submit" className="btn btn-primary" onClick={'/profile'}>Login</button>
+  <a className="nav link" href="/register">
+    <b>Register Now</b>
+  </a>
   
   <a className="nav link" href="/forgot">
     Forgot Password

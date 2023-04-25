@@ -12,6 +12,7 @@ import Profile from './Components/ProfileComponent/ProfileComponent';
 import Login from './Components/LoginComponent/Logincomponent';
 import Carousel from './Components/CaourselComponent/CaourselComponent';
 import DoctorComponet from './Components/DoctorComponent/Doctorcomponent';
+import Home from './Components/HomeComponents/Home';
 
 
 
@@ -21,13 +22,12 @@ function App() {
   
     <div className="App">
       <header>
-    <MenuComponents></MenuComponents>
-    <Carousel/>
   
+  <MenuComponents/>
     </header>
       <BrowserRouter>
       <Routes>
-       
+        <Route path='/home' element={<Home/>}></Route>
         <Route path='/testlist' element={<TestListComponent/>}></Route>
         <Route path='/test' element={<TestIndividualComponent/>}></Route>
         <Route path='/forgot' element={<Forgotcomponent/>}></Route>
@@ -35,7 +35,7 @@ function App() {
         <Route path='/register' element={<Register/>}></Route>
         <Route path='/profile' element={<Profile/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
-       <Route path='/Doctor' element={<DoctorComponet/>}></Route>
+     
       </Routes>
       </BrowserRouter>
       <footer>
